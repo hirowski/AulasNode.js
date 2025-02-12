@@ -55,5 +55,5 @@ Também é possível fazer assim:
     const preco = 100
     const desconto = 30
 
-    console.log(`O preço final do produto, com 30% de desconto, é: ${preco - (preco*(30/100))}. `)
+    console.log(`O preço final do produto, com 30% de desconto, é: R$${preco - (preco*(30/100))}. `)
 }
