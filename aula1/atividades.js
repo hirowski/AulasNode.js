@@ -7,14 +7,39 @@
     console.log(`Média = ${(num1+num2)/2}. `);
 }
 
+/*
+Também é possível fazer assim:
+{
+    let nota1 = 8
+    let nota2 = 10
+
+    let media = (nota1 + nota2) /2;
+
+    console.log(`Média das notas: ${media}`)
+}
+*/
+
 //IMC
 
-{
+/*{
     const peso = 45
     const altura = 1.53
 
     console.log(`Seu IMC é: ${peso/(altura**2)}. `);
 }
+*/
+
+//para tirar os números decimais
+
+{
+    let peso = 65
+    let altura = 1.74
+
+    let imc = peso / altura **2
+
+    console.log(`O imc é:`, imc.toFixed(2))
+}
+
 
 //Temperatura
 
