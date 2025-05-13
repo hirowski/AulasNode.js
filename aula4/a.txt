@@ -1,0 +1,11 @@
+estruturas de repetição
+
+laços:
+Os laços são usados em JavaScript para realizar tarefas repetidas com base em uma condição. As condições tipicamente retornam true ou false. Um laço continuará em execução até que a condição definida retorne false.
+
+for [para] -> devemos utilizar quando sabemos previamente a quantidade de iterações(repetição). Serve para criar uma sequência numérica;
+while [enquanto] -> devemos utilizar quando sabemos NÃO previamente a quantidade de iterações(repetição);
+
+for (inicialização; condição; expressãoFinal) {
+  // instruções a serem executadas repetidamente
+}
